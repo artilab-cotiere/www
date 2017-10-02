@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 CSS-Driven Responsive Image Slider With Captions</title>
+  
+  
+  
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @import url(https://fonts.googleapis.com/css?family=Istok+Web);
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+* {
+  box-sizing: border-box;
+}
+body, figure { 
+  margin: 0; background: #101010;
+  font-family: Istok Web, sans-serif;
+  font-weight: 100;
+}
+div#captioned-gallery { 
+  width: 100%; overflow: hidden; 
+}
+figure.slider { 
+  position: relative; width: 500%;
+  font-size: 0; animation: 30s slidy infinite; 
+}
+figure.slider figure { 
+  width: 20%; height: auto;
+  display: inline-block;  position: inherit; 
+}
+figure.slider img { width: 100%; height: auto; }
+figure.slider figure figcaption { 
+  position: absolute; bottom: 0;
+  background: rgba(0,0,0,0.4);
+  color: #fff; width: 100%;
+  font-size: 2rem; padding: .6rem; 
+}
+
+
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+  <base href="img/">
+<div id="captimg/ioned-gallery">
+	<figure class="slider">
+		<figure>
+			<img src="img1.jpeg" alt>
+			<figcaption>Initiation à la musique électronique</figcaption>
+		</figure>
+		<figure>
+			<img src="img3.jpeg" alt>
+			<figcaption>Developpement d'application android</figcaption>
+		</figure>
+		<figure>
+			<img src="img2.jpeg" alt>
+			<figcaption>Initiation à la musique électronique</figcaption>
+		</figure>
+		<figure>
+			<img src="img4.jpeg" alt>
+			<figcaption>Petit cours de domotique</figcaption>
+		</figure>
+		<figure>
+			<img src="img2.jpeg" alt>
+			<figcaption>Initiation à la musique électronique</figcaption>
+		</figure>
+	</figure>
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+  
+</body>
+</html>

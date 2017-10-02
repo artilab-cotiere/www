@@ -39,9 +39,14 @@
 		content: none;
 	}
 
-	table {
-		border-collapse: collapse;
-		border-spacing: 0;
+	table, th, td, tr {
+             border-spacing: 5px;
+
+		    border: 0px solid black;
+    border-collapse: collapse;
+        padding:10px;
+
+
 	}
 
 	body {
@@ -1755,7 +1760,7 @@
 
 					h2.major span {
 						top: -0.775em;
-						padding: 0 1.5em 0 1.5em;
+				padding: 0 1.5em 0 1.5em;
 					}
 
 			h3, h4 {
@@ -2087,7 +2092,7 @@
 
 			#footer {
 				text-align: center;
-				padding: 8em 0 8em 0;
+				padding: 8em 0 f 0;
 			}
 
 				#footer h2.major {
