@@ -90,6 +90,11 @@
 		width: 960px;
 	}
 
+  .centeredbutton {
+    text-align:center;
+    margin:20px
+  }
+
 	@media screen and (min-width: 737px) {
 
 		.container.\31 25\25 {
