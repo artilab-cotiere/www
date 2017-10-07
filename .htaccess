@@ -1,0 +1,4 @@
+# Configure browser cache
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico)$">
+Header set Cache-Control "max-age=900, public"
+</filesMatch>
