@@ -1179,6 +1179,18 @@
 		margin-bottom: 3em;
 	}
 
+  .info, .map {
+    display: inline-block;
+    width:45%;
+    min-width: 450px;
+    vertical-align: top;
+  }
+  .map {
+    margin-right: 20px;
+    min-height: 500px;
+  }
+
+
 /* Section/Article */
 
 	section, article {
