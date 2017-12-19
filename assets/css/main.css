@@ -95,6 +95,12 @@
     margin:20px
   }
 
+	img.logo.fondation_orange {
+		height:60%;
+		width:60%;
+		vertical-align: middle;
+	}
+
 	@media screen and (min-width: 737px) {
 
 		.container.\31 25\25 {
