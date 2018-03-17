@@ -1405,6 +1405,10 @@
 				top: -5px;
 			}
 
+				ul.contact li:hover a.fa-discourse {
+					background-color: #A9E34B;
+				}
+
 				ul.contact li:hover a.fa-facebook {
 					background-color: #3C5A98;
 				}
