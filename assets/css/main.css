@@ -1124,6 +1124,14 @@
 		color: inherit;
 	}
 
+  .special_event {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    margin-left: 12em;
+    margin-right: 12em;
+    font-weight: bold;
+  }
+
 	h2.major {
 		position: relative;
 		border-top: solid 5px #e7eae8;
